@@ -9,14 +9,6 @@
 }
 
 @font-face {
-  font-family: "Source Han Sans SC Medium";
-  src: url("/fonts/SOURCEHANSANSSC-MEDIUM-2.OTF") format("opentype");
-  font-display: swap;
-  font-style: normal;
-  font-weight: 500;
-}
-
-@font-face {
   font-family: "NB International Pro Italic";
   src: url("/fonts/NB-INTERNATIONAL-PRO-ITALIC.TTF") format("truetype");
   font-display: swap;
@@ -63,7 +55,7 @@
   --font-sans: "Avenir Next", "Helvetica Neue", "Noto Sans SC", "Microsoft YaHei", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "SFMono-Regular", Consolas, ui-monospace, monospace;
   --font-futura: "Futura Hero", Arial, sans-serif;
-  --font-source-han: "Source Han Sans SC Medium", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  --font-source-han: "Microsoft YaHei", "Noto Sans SC", sans-serif;
   --font-nb-international: "NB International Pro Italic", "Avenir Next", "Helvetica Neue", sans-serif;
   --font-cn: Arial, "Microsoft YaHei", sans-serif;
 }

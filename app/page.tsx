@@ -142,7 +142,7 @@ function Portrait() {
         className="object-cover object-[55%_54%]"
         fill
         sizes="(min-width: 1024px) 32vw, 100vw"
-        src="/brand/profile/sinan-tokyo.jpg"
+        src="/brand/profile/sinan-tokyo.webp"
       />
     </div>
   );

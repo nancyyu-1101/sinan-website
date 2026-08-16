@@ -129,7 +129,7 @@ export const experience: Experience[] = [
       },
     ],
     image: {
-      src: "/brand/profile/ensci-class.jpg",
+      src: "/brand/profile/ensci-class.webp",
       alt: "ENSCI - Les Ateliers 师生在巴黎工作室内合影",
     },
   },
