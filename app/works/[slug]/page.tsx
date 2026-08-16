@@ -94,12 +94,9 @@ export default async function WorkDetailPage({ params }: WorkDetailPageProps) {
     { label: "日期", value: work.year },
     { label: "角色", value: work.role },
   ].filter((detail) => detail.value);
-  const galleryImages = [
-    work.coverPreview ?? work.cover,
-    ...(work.gallery ?? []).filter(
-      (image) => image !== work.cover && image !== work.coverPreview,
-    ),
-  ];
+  const galleryImages = work.gallery?.length
+    ? work.gallery
+    : [work.coverPreview ?? work.cover];
   const displayTitle = work.slug === "meetpoint" ? "碰碰头" : work.title;
   const processImages = work.processImages ?? [];
   const showProjectIntro = hasProjectIntro(work.summary);
