@@ -22,13 +22,6 @@ export const awards: Award[] = [
     organizer: "AdventureX",
   },
   {
-    id: "tencent-tt-skill-innovation-2026",
-    name: "Tencent | TT Design Academy Skill Innovation Application Competition, Third Prize",
-    nameZh: "腾讯 | TT设计学院·Skill创新应用大赛三等奖",
-    year: 2026,
-    organizer: "腾讯 | TT设计学院",
-  },
-  {
     id: "london-design-awards-2025",
     name: "London Design Awards, Silver",
     nameZh: "伦敦设计大赛银奖",
