@@ -1,0 +1,18 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#EEF1ED"/>
+  <rect x="120" y="116" width="1680" height="848" rx="24" fill="#FAFBF8" stroke="#D7DDD8" stroke-width="2"/>
+  <rect x="210" y="206" width="890" height="668" rx="28" fill="#DDE7DF"/>
+  <path d="M270 706C410 596 506 636 638 514C776 386 916 424 1040 302" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="484" cy="420" r="22" fill="#20231F"/>
+  <circle cx="814" cy="626" r="22" fill="#20231F"/>
+  <circle cx="656" cy="536" r="36" fill="#CFFFC4" stroke="#527164" stroke-width="10"/>
+  <rect x="1180" y="230" width="480" height="104" rx="18" fill="#FFFFFF" stroke="#D7DDD8" stroke-width="2"/>
+  <rect x="1180" y="370" width="480" height="104" rx="18" fill="#FFFFFF" stroke="#D7DDD8" stroke-width="2"/>
+  <rect x="1180" y="510" width="480" height="104" rx="18" fill="#FFFFFF" stroke="#D7DDD8" stroke-width="2"/>
+  <rect x="1180" y="650" width="480" height="104" rx="18" fill="#FFFFFF" stroke="#D7DDD8" stroke-width="2"/>
+  <rect x="1218" y="266" width="230" height="26" rx="13" fill="#20231F"/>
+  <rect x="1218" y="406" width="260" height="26" rx="13" fill="#20231F"/>
+  <rect x="1218" y="546" width="210" height="26" rx="13" fill="#20231F"/>
+  <rect x="1218" y="686" width="250" height="26" rx="13" fill="#20231F"/>
+  <text x="210" y="934" fill="#8D968F" font-family="Arial, sans-serif" font-size="30" letter-spacing="0">MEETPOINT / MIDPOINT RESULT SLOT</text>
+</svg>
