@@ -44,6 +44,7 @@ export function WorkListItem({ work }: WorkListItemProps) {
         <Link
           className="group block focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-8 focus-visible:outline-[#cfffc4]"
           href={work.href}
+          prefetch={false}
         >
           {content}
         </Link>

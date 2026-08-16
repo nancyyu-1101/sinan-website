@@ -11,7 +11,9 @@ import {
 import { PageTransition } from "@/components/motion/page-transition";
 import { WorkBody } from "@/components/works/work-body";
 import { WorkGallery } from "@/components/works/work-gallery";
-import { getWorkBySlug } from "@/lib/content";
+import { getWorkBySlug, getWorkSlugs } from "@/lib/content";
+
+export const dynamicParams = false;
 
 type WorkDetailPageProps = {
   params: Promise<{
@@ -41,6 +43,12 @@ function getProcessImageDimensions(slug: string) {
   }
 
   return { width: 3840, height: 2160 };
+}
+
+export async function generateStaticParams() {
+  const slugs = await getWorkSlugs();
+
+  return slugs.map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
@@ -86,7 +94,12 @@ export default async function WorkDetailPage({ params }: WorkDetailPageProps) {
     { label: "日期", value: work.year },
     { label: "角色", value: work.role },
   ].filter((detail) => detail.value);
-  const galleryImages = work.gallery?.length ? work.gallery : [work.cover];
+  const galleryImages = [
+    work.coverPreview ?? work.cover,
+    ...(work.gallery ?? []).filter(
+      (image) => image !== work.cover && image !== work.coverPreview,
+    ),
+  ];
   const displayTitle = work.slug === "meetpoint" ? "碰碰头" : work.title;
   const processImages = work.processImages ?? [];
   const showProjectIntro = hasProjectIntro(work.summary);
