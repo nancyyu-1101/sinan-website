@@ -8,6 +8,12 @@ import { Navigation } from "@/components/layout/navigation";
 
 const homeFinalFrameProgress = 0.84;
 const homeResetOffset = 24;
+const homeMinimumRevealViewport = 0.9;
+
+type HomeChromeState = {
+  pathname: string;
+  visible: boolean;
+};
 
 function getHomeRevealPoint() {
   const hero = document.querySelector<HTMLElement>("[data-home-hero]");
@@ -16,8 +22,12 @@ function getHomeRevealPoint() {
 
   const heroTop = hero.getBoundingClientRect().top + window.scrollY;
   const heroScrollDistance = Math.max(hero.offsetHeight - window.innerHeight, 0);
+  const minimumRevealPoint = heroTop + window.innerHeight * homeMinimumRevealViewport;
 
-  return heroTop + heroScrollDistance * homeFinalFrameProgress;
+  return Math.max(
+    minimumRevealPoint,
+    heroTop + heroScrollDistance * homeFinalFrameProgress,
+  );
 }
 
 export function SiteHeader() {
@@ -25,19 +35,27 @@ export function SiteHeader() {
   const { scrollY } = useScroll();
   const isHome = pathname === "/";
   const previousScrollY = useRef(0);
-  const [homeChromeVisible, setHomeChromeVisible] = useState(false);
+  const [homeChrome, setHomeChrome] = useState<HomeChromeState>({
+    pathname: "",
+    visible: false,
+  });
+  const homeChromeVisible =
+    homeChrome.pathname === pathname ? homeChrome.visible : false;
 
   useEffect(() => {
     const frame = requestAnimationFrame(() => {
       const initialScrollY = scrollY.get();
       previousScrollY.current = initialScrollY;
-      setHomeChromeVisible(
-        isHome ? initialScrollY >= getHomeRevealPoint() : true,
-      );
+      const visible = isHome
+        ? initialScrollY > homeResetOffset &&
+          initialScrollY >= getHomeRevealPoint()
+        : true;
+
+      setHomeChrome({ pathname, visible });
     });
 
     return () => cancelAnimationFrame(frame);
-  }, [isHome, scrollY]);
+  }, [isHome, pathname, scrollY]);
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     if (!isHome) return;
@@ -46,10 +64,17 @@ export function SiteHeader() {
     previousScrollY.current = latest;
     const revealPoint = getHomeRevealPoint();
 
-    setHomeChromeVisible((current) => {
-      if (scrollingDown && latest >= revealPoint) return true;
-      if (latest < revealPoint - homeResetOffset) return false;
-      return current;
+    setHomeChrome((current) => {
+      let visible = current.pathname === pathname ? current.visible : false;
+
+      if (scrollingDown && latest >= revealPoint) visible = true;
+      if (latest < revealPoint - homeResetOffset) visible = false;
+
+      if (current.pathname === pathname && current.visible === visible) {
+        return current;
+      }
+
+      return { pathname, visible };
     });
   });
 
