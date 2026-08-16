@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import "@/styles/globals.css";
 import { SiteHeader } from "@/components/layout/site-header";
 import { SmoothScrollProvider } from "@/components/motion/smooth-scroll-provider";
@@ -24,6 +25,7 @@ export default function RootLayout({
           <SiteHeader />
           {children}
         </SmoothScrollProvider>
+        <Analytics />
       </body>
     </html>
   );
