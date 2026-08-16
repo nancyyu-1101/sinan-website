@@ -12,6 +12,7 @@ export type WorkDocument = {
   year: string;
   category: WorkCategory;
   cover: string;
+  coverPreview?: string;
   coverAlt: string;
   tags: string[];
   summary: string;

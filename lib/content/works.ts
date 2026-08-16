@@ -45,6 +45,7 @@ function parseWork(fileName: string, source: string): WorkDocument {
     year: readString(data, "year", fileName),
     category: category as WorkCategory,
     cover: readString(data, "cover", fileName),
+    coverPreview: readOptionalString(data, "coverPreview"),
     coverAlt: readOptionalString(data, "coverAlt") ?? title + " 项目封面",
     tags: readStringArray(data, "tags", fileName),
     summary: readString(data, "summary", fileName),

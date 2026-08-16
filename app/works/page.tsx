@@ -15,6 +15,7 @@ const SECTION_SLOT_COUNT = 4;
 type WorkListCard = {
   cover: string;
   coverAlt: string;
+  coverPreview?: string;
   href?: string;
   id: string;
   meta?: string;
@@ -32,6 +33,7 @@ const industrialDesignWorks: WorkListCard[] = [
     title: "Trigear",
     meta: "团队骑行 / 共享能源 / 户外",
     cover: "/works/industrial-design/trigear-cover.webp",
+    coverPreview: "/works/industrial-design/trigear-cover.preview.webp",
     coverAlt: "Trigear 工业设计项目主图，户外地面上展示圆形设备与手持模块。",
     href: "/works/trigear",
   },
@@ -40,6 +42,7 @@ const industrialDesignWorks: WorkListCard[] = [
     title: "Roofsense 屋感",
     meta: "可持续能源 / 光伏维护 / 服务设计",
     cover: "/works/industrial-design/roofsense-cover-v2.webp",
+    coverPreview: "/works/industrial-design/roofsense-cover-v2.preview.webp",
     coverAlt: "Roofsense 工业设计项目主图，手机展示屋顶设备信息界面。",
     href: "/works/roofsense",
   },
@@ -48,6 +51,7 @@ const industrialDesignWorks: WorkListCard[] = [
     title: "Airoma",
     meta: "航空体验 / 机上餐饮 / 感官设计",
     cover: "/works/industrial-design/airoma-cover.webp",
+    coverPreview: "/works/industrial-design/airoma-cover.preview.webp",
     href: "/works/airoma",
     coverAlt: "Airoma 工业设计项目主图，飞机座椅场景中展示设备结构。",
   },
@@ -56,6 +60,7 @@ const industrialDesignWorks: WorkListCard[] = [
     title: "Shellter",
     meta: "自然灾害 / 女性健康 / 情绪支持 / 公共服务设计",
     cover: "/works/industrial-design/shellter-cover.webp",
+    coverPreview: "/works/industrial-design/shellter-cover.preview.webp",
     href: "/works/shellter",
     coverAlt: "Shellter 工业设计项目主图，黑色织物原型上有针线结构。",
   },
@@ -163,6 +168,7 @@ function toWorkListCard(work: WorkDocument): WorkListCard {
           ? "申请规划 / 事项管理 / 小程序"
         : (work.displayType ?? "Vibecoding"),
     cover: work.cover,
+    coverPreview: work.coverPreview,
     coverAlt: work.coverAlt,
     href: `/works/${work.slug}`,
   };

@@ -5,6 +5,7 @@ type WorkListItemProps = {
   work: {
     cover: string;
     coverAlt: string;
+    coverPreview?: string;
     href?: string;
     meta?: string;
     title: string;
@@ -20,7 +21,7 @@ export function WorkListItem({ work }: WorkListItemProps) {
           className="object-cover transition duration-700 ease-out md:group-hover:scale-[1.018] motion-reduce:transition-none"
           fill
           sizes="(max-width: 767px) calc(100vw - 2.5rem), (max-width: 1535px) calc((100vw - 7rem) / 2), 680px"
-          src={work.cover}
+          src={work.coverPreview ?? work.cover}
         />
       </div>
 
