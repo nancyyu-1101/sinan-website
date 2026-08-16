@@ -1,0 +1,24 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 713.971 431.062" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Hair_Front">
+<path id="Top_Fringe" d="M37.1926 256.56C46.2362 144.444 130.342 35.0406 263.283 9.72418C382.658 -13.784 534.591 1.58674 640.401 97.4276C677.479 130.882 699.184 177.898 710.941 235.764C648.54 230.339 588.852 213.16 537.304 184.227C483.042 153.485 445.059 110.086 427.876 63.9737C420.641 124.552 451.389 183.323 506.555 216.777C450.485 189.652 413.406 143.54 404.363 93.811C391.702 144.444 351.91 195.077 284.083 218.585C322.066 184.227 343.771 127.265 346.484 65.782C329.301 113.702 296.744 156.198 247.908 193.268C198.169 232.147 124.916 256.56 37.1926 256.56Z" fill="url(#paint0_linear_0_4)"/>
+<path id="Left_Cheek_Lock" d="M38.0969 215.872C-13.4516 294.534 -11.6429 376.813 37.1926 431.062C17.2967 375.004 24.5315 305.384 65.2277 255.655L38.0969 215.872Z" fill="url(#paint1_linear_0_4)"/>
+<path id="Right_Cheek_Lock" d="M660.297 208.639C717.271 278.259 725.411 365.059 700.993 426.542C718.176 358.73 703.706 287.301 666.627 243.901L660.297 208.639Z" fill="url(#paint2_linear_0_4)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_4" x1="44.4275" y1="68.4945" x2="637.572" y2="591.229" gradientUnits="userSpaceOnUse">
+<stop stop-color="#171819"/>
+<stop offset="0.55" stop-color="#101112"/>
+<stop offset="1" stop-color="#171819"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_4" x1="44.4275" y1="68.4945" x2="637.572" y2="591.229" gradientUnits="userSpaceOnUse">
+<stop stop-color="#171819"/>
+<stop offset="0.55" stop-color="#101112"/>
+<stop offset="1" stop-color="#171819"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_4" x1="44.4274" y1="68.4945" x2="637.572" y2="591.229" gradientUnits="userSpaceOnUse">
+<stop stop-color="#171819"/>
+<stop offset="0.55" stop-color="#101112"/>
+<stop offset="1" stop-color="#171819"/>
+</linearGradient>
+</defs>
+</svg>

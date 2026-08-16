@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" role="img" aria-labelledby="title description">
+  <title id="title">Photography image placeholder</title>
+  <desc id="description">A neutral placeholder showing the required photography image area.</desc>
+  <rect width="1600" height="1200" fill="#E4E8E5"/>
+  <rect x="48" y="48" width="1504" height="1104" fill="none" stroke="#B3BDB6" stroke-width="4"/>
+  <text x="800" y="610" fill="#5A655E" font-family="Arial, sans-serif" font-size="40" text-anchor="middle">PHOTOGRAPHY IMAGE</text>
+</svg>

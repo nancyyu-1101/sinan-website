@@ -1,0 +1,21 @@
+﻿<svg preserveAspectRatio="xMidYMid meet" width="100%" height="100%" overflow="hidden" style="display: block;" viewBox="0 0 619.742 194.261" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Glasses">
+<path id="Left_Lens" d="M25.7413 46.4163C34.6513 18.9264 76.2313 10.395 157.411 10.395C240.571 10.395 274.231 22.7181 287.101 53.0518C297.991 77.698 284.131 135.522 257.401 161.116C238.591 179.126 207.901 183.866 153.451 183.866C98.0113 183.866 68.3113 179.126 49.5013 159.22C28.7113 137.418 12.8713 83.3856 25.7413 46.4163Z" fill="url(#paint0_linear_0_29)" stroke="var(--stroke-0, #050607)" stroke-width="20.79" stroke-linejoin="round"/>
+<path id="Right_Lens" d="M331.651 53.0518C344.521 22.7181 379.171 10.395 462.331 10.395C543.511 10.395 585.091 18.9264 594.001 46.4163C606.871 83.3856 591.031 137.418 570.241 159.22C551.431 179.126 521.731 183.866 466.291 183.866C411.841 183.866 381.151 179.126 362.341 161.116C335.611 135.522 320.761 77.698 331.651 53.0518Z" fill="url(#paint1_linear_0_29)" stroke="var(--stroke-0, #050607)" stroke-width="20.79" stroke-linejoin="round"/>
+<path id="Bridge" d="M286.112 56.8434C299.972 47.3641 318.782 47.3641 332.642 56.8434" stroke="var(--stroke-0, #050607)" stroke-width="19.8" stroke-linecap="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_29" x1="26.7313" y1="26.5098" x2="583.836" y2="178.649" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B8772E"/>
+<stop offset="0.5" stop-color="#A96524"/>
+<stop offset="1" stop-color="#B97A32"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_29" x1="26.7314" y1="26.5098" x2="583.836" y2="178.649" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B8772E"/>
+<stop offset="0.5" stop-color="#A96524"/>
+<stop offset="1" stop-color="#B97A32"/>
+</linearGradient>
+</defs>
+</svg>
+
+

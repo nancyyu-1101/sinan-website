@@ -1,0 +1,13 @@
+﻿<svg preserveAspectRatio="xMidYMid meet" width="100%" height="100%" overflow="hidden" style="display: block;" viewBox="0 0 759 756.237" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Face">
+<path id="Face_Oval" d="M379.5 756.237C589.092 756.237 759 586.948 759 378.119C759 169.289 589.092 0 379.5 0C169.908 0 0 169.289 0 378.119C0 586.948 169.908 756.237 379.5 756.237Z" fill="url(#paint0_radial_0_13)"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_0_13" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(375.1 302.284) rotate(90) scale(473.965 445.5)">
+<stop stop-color="#FFD8C3"/>
+<stop offset="0.7" stop-color="#FFC5AA"/>
+<stop offset="1" stop-color="#FFB99A"/>
+</radialGradient>
+</defs>
+</svg>
+

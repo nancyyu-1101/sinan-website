@@ -1,0 +1,4 @@
+interface:
+  display_name: "Portfolio Site Builder"
+  short_description: "Build Sinan's premium portfolio site"
+  default_prompt: "Use $portfolio-site-builder to implement the next portfolio website milestone from the specs."

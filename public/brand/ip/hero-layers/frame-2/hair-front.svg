@@ -1,0 +1,18 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 870 367" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Hair_Front">
+<path id="Top_Hair" d="M0.0897104 361.274C-2.12099 249.875 36.5663 138.475 111.73 66.4597C201.263 -19.059 323.957 -2.18031 441.124 10.1974C567.134 -4.4308 686.512 15.8236 774.94 103.593C837.945 166.607 867.789 262.253 870 361.274C818.049 299.386 751.728 251 683.196 216.117C603.611 176.734 535.079 129.474 507.445 63.084C503.024 121.597 521.815 165.481 563.818 201.489C519.604 174.483 491.97 136.225 479.811 90.0899C464.337 137.35 436.703 174.483 391.384 198.114C427.86 160.98 446.651 118.221 444.44 63.084C416.807 129.474 352.696 178.984 274.216 219.493C203.474 255.501 122.741 300.61 73 367L0.0897104 361.274Z" fill="url(#paint0_linear_0_9)"/>
+<path id="Center_Bang_Left" d="M286.375 212.584C353.802 177.355 394.7 125.079 406.858 64.8479C409.069 125.079 392.489 172.809 356.012 212.584H286.375Z" fill="url(#paint1_linear_0_9)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_9" x1="25.5128" y1="92.1221" x2="874.447" y2="929.995" gradientUnits="userSpaceOnUse">
+<stop stop-color="#17191C"/>
+<stop offset="0.5" stop-color="#101214"/>
+<stop offset="1" stop-color="#1A1C20"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_9" x1="25.5127" y1="92.1224" x2="874.447" y2="929.995" gradientUnits="userSpaceOnUse">
+<stop stop-color="#17191C"/>
+<stop offset="0.5" stop-color="#101214"/>
+<stop offset="1" stop-color="#1A1C20"/>
+</linearGradient>
+</defs>
+</svg>

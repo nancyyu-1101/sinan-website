@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" role="img" aria-labelledby="title description">
+  <title id="title">Work image placeholder</title>
+  <desc id="description">A neutral placeholder showing the required work image area.</desc>
+  <rect width="1600" height="1200" fill="#E9ECE8"/>
+  <rect x="48" y="48" width="1504" height="1104" rx="20" fill="none" stroke="#B7C1BA" stroke-width="4"/>
+  <text x="800" y="580" fill="#5E6962" font-family="Arial, sans-serif" font-size="42" text-anchor="middle">WORK IMAGE</text>
+  <text x="800" y="642" fill="#7A847D" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">1600 ? 1200 recommended</text>
+</svg>

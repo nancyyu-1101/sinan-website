@@ -1,0 +1,14 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 1283.41 1088.38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Face">
+<path id="Face_Shape" d="M36.2871 444.893C45.8363 189.032 276.926 0 639.795 0C1006.48 0 1241.39 200.488 1252.85 460.168V609.102C1247.12 866.872 991.204 1086.45 641.705 1088.36C288.385 1090.27 34.3772 882.148 28.6477 616.74L36.2871 444.893Z" fill="url(#paint0_radial_0_16)"/>
+<path id="Left_Ear" d="M59.2049 742.761C91.9028 742.761 118.41 685.484 118.41 614.83C118.41 544.176 91.9028 486.9 59.2049 486.9C26.5069 486.9 0 544.176 0 614.83C0 685.484 26.5069 742.761 59.2049 742.761Z" fill="var(--fill-0, #FFC6A7)"/>
+<path id="Right_Ear" d="M1224.2 740.851C1256.9 740.851 1283.41 683.574 1283.41 612.92C1283.41 542.266 1256.9 484.99 1224.2 484.99C1191.51 484.99 1165 542.266 1165 612.92C1165 683.574 1191.51 740.851 1224.2 740.851Z" fill="var(--fill-0, #FFC6A7)"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_0_16" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(622.606 498.356) rotate(90) scale(666.384 741.016)">
+<stop stop-color="#FFD7BE"/>
+<stop offset="0.72" stop-color="#FFC5A6"/>
+<stop offset="1" stop-color="#FFBB9B"/>
+</radialGradient>
+</defs>
+</svg>
